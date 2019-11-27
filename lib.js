@@ -48,6 +48,8 @@ module.exports = class Shrimpit {
         'jsx',
         'objectRestSpread',
         'trailingFunctionCommas',
+        'optionalChaining',
+        'nullishCoalescingOperator',
         // Babel can't parse both at the same time!
         this.parseTypeScript ? 'typescript' : 'flow',
       ],
